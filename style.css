@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Gravitas+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Roboto+Condensed&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #F8F8FF;
+    color: black;
+    
+}
+.container{
+    padding: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.secao{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 60%;
+
+}
+
+.paragrafo{
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: "Yeseva One", sans-serif;
+    font-weight: 200;
+    font-style: normal; 
+    text-align:justify;
+}
+
+    
+
+.titulo{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Krona One", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+          
+.destaque-titulo{
+color: orange;
+}
+.destaque-texto{
+    color: orange;
+}
+.botoes{
+    display: flex;
+    justify-content: space-around;
+
+}
+.bnt{
+    background-color: orange;
+    width: 280px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 20px 0;
+    text-decoration: none;
+    color: black;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.bnt:hover{
+    background-color: rgb(0, 0, 0);
+    color: orange;
+    transition: 0.3s;
+    opacity: calc(1 - 0.3);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.imagem:hover{ 
+
+ transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
